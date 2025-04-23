@@ -7,7 +7,7 @@ repositories {
 }
 
 dependencies {
-    // This dependency is used by the application.
+    implementation 'org.jsoup:jsoup:1.19.1'
     implementation libs.guava
 }
 
