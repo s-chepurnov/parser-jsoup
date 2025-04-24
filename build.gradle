@@ -20,3 +20,9 @@ java {
 application {
     mainClass = 'org.example.App'
 }
+
+compileJava.options.encoding = 'UTF-8'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
